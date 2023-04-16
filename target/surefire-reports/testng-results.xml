@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="10" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-13T23:41:01 IST" name="Suite" finished-at="2023-04-13T23:41:36 IST" duration-ms="35368">
+    <groups>
+      <group name="OpenYouTube">
+        <method signature="SMATestCasesYouTube.YouTube_C100Open_Youtube_and_Verify(java.util.HashMap)[pri:0, instance:SocialMediaAutomation.tests.SMATestCasesYouTube@30e868be]" name="YouTube_C100Open_Youtube_and_Verify" class="SocialMediaAutomation.tests.SMATestCasesYouTube"/>
+      </group> <!-- OpenYouTube -->
+    </groups>
+    <test started-at="2023-04-13T23:41:01 IST" name="Test" finished-at="2023-04-13T23:41:36 IST" duration-ms="35368">
+      <class name="SocialMediaAutomation.tests.SMATestCasesYouTube">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SocialMediaAutomation.tests.SMATestCasesYouTube@30e868be]" started-at="2023-04-13T23:41:01 IST" name="launchApplication" finished-at="2023-04-13T23:41:09 IST" duration-ms="7599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="YouTube_C100Open_Youtube_and_Verify(java.util.HashMap)[pri:0, instance:SocialMediaAutomation.tests.SMATestCasesYouTube@30e868be]" started-at="2023-04-13T23:41:09 IST" name="YouTube_C100Open_Youtube_and_Verify" data-provider="getData" finished-at="2023-04-13T23:41:18 IST" duration-ms="9664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{channelName=T-Series, urlLandingPage=https://www.youtube.com/, landingPageTitle=YouTube}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YouTube_C100Open_Youtube_and_Verify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SocialMediaAutomation.tests.SMATestCasesYouTube@30e868be]" started-at="2023-04-13T23:41:18 IST" name="tearDown" finished-at="2023-04-13T23:41:19 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SocialMediaAutomation.tests.SMATestCasesYouTube@30e868be]" started-at="2023-04-13T23:41:19 IST" name="launchApplication" finished-at="2023-04-13T23:41:26 IST" duration-ms="6930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="YouTube_C100Open_Youtube_and_Verify(java.util.HashMap)[pri:0, instance:SocialMediaAutomation.tests.SMATestCasesYouTube@30e868be]" started-at="2023-04-13T23:41:26 IST" name="YouTube_C100Open_Youtube_and_Verify" data-provider="getData" finished-at="2023-04-13T23:41:36 IST" duration-ms="10410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{channelName=Soch by Mohak Mangal, urlLandingPage=https://www.youtube.com/, landingPageTitle=YouTube}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YouTube_C100Open_Youtube_and_Verify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SocialMediaAutomation.tests.SMATestCasesYouTube@30e868be]" started-at="2023-04-13T23:41:36 IST" name="tearDown" finished-at="2023-04-13T23:41:36 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SocialMediaAutomation.tests.SMATestCasesYouTube -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
