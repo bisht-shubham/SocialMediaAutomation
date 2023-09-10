@@ -51,27 +51,29 @@ public class BaseTest {
 	}
 
 	public void broswerType() {
-
 		String browserName = System.getProperty("browser") == null ? prop.getProperty("browser")
 				: System.getProperty("browser");
 		switch (browserName.toLowerCase()) {
 		case "chrome":
 			ChromeOptions co = new ChromeOptions();
 			co.addArguments("--remote-allow-origins=*");
-			System.setProperty("webdriver.chrome.driver", prop.getProperty("chromedriver.path"));
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
+					+"\\Drivers\\" +prop.getProperty("chromedriver.path"));
 			if (prop.getProperty("headless").contains("true"))
 				co.addArguments("headless");
 			driver = new ChromeDriver(co);
 			driver.manage().window().setSize(new Dimension(1440, 900));
 			break;
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", prop.getProperty("geckodriver.path"));
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")
+					+"\\Drivers\\" +prop.getProperty("geckodriver.path"));
 			driver = new FirefoxDriver();
 			break;
 		case "edge":
 			EdgeOptions options = new EdgeOptions();
 			options.setCapability("edgeFlags", "--remote-allow-origins=*");
-			System.setProperty("webdriver.edge.driver", prop.getProperty("msedgedriver.path"));
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")
+					+"\\Drivers\\" +prop.getProperty("msedgedriver.path"));
 			driver = new EdgeDriver(options);
 			break;
 		default:

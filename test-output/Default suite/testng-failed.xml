@@ -5,10 +5,16 @@
     <classes>
       <class name="SocialMediaAutomation.tests.SMATestCasesYouTube">
         <methods>
+          <include name="YouTube_C104Check_Youtube_Functionalities_Volume"/>
+          <include name="YouTube_C101Search_Text_on_Youtube_and_Verify_Results"/>
           <include name="YouTube_C106Copy_Url_and_Verify_if_Copied"/>
-          <include name="YouTube_C105Skip_Youtube_Ad_if_skippable" invocation-numbers="0"/>
+          <include name="YouTube_C108Verify_Whatspp_Fb_and_Twitter_Logo"/>
+          <include name="YouTube_C100Open_Youtube_and_Verify"/>
+          <include name="YouTube_C105Skip_Youtube_Ad_if_skippable"/>
           <include name="tearDown"/>
+          <include name="YouTube_C103Check_Youtube_Functionalities_Pause"/>
           <include name="launchApplication"/>
+          <include name="YouTube_C102Click_on_First_Displayed_Video"/>
           <include name="YouTube_C107Save_Copied_Text_in_a_File"/>
         </methods>
       </class> <!-- SocialMediaAutomation.tests.SMATestCasesYouTube -->
